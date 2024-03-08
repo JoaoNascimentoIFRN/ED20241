@@ -42,19 +42,6 @@ class Vetor {
         return this._vetor;
     }
 
-
-    //inserirFinal, inserirInicio, retirarInicio e retirarFinal
 }
 
-const v = new Vetor();
-v.inserirFinal(15);
-v.inserirFinal(1);
-v.inserirInicio(2);
-console.log(v.vetor);
-v.retirarInicio();
-console.log(v.vetor);
-v.retirarFinal();
-console.log(v.vetor);
-
-
-const v2 = [-2,0,12,45];
+module.exports = Vetor;
